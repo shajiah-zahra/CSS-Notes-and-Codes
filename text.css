@@ -1,0 +1,32 @@
+.text{
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    color:rgb(22, 140, 244);
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 #e7eef1, 8px 8px 0  rgba(0, 0, 0, 0.1);
+
+    
+}
+.text-3d{
+position: relative;
+display: inline-block;
+font-size: 6rem;
+color: rgb(162, 9, 167);
+text-transform: uppercase;
+-webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+transform: skew(-5deg, -5deg) rotate(5deg);
+-webkit-transform-origin: center center;
+transform-origin: center center;
+text-shadow: 1px 1px 0 rgb(121, 7, 125),
+             2px 2px 0 rgb(121, 7, 125),
+             3px 3px 0 rgb(121, 7, 125),
+             4px 4px 0 rgb(121, 7, 125),
+             5px 5px 0 rgb(121, 7, 125),
+             6px 6px 0 rgb(121, 7, 125),
+             7px 7px 0 rgb(121, 7, 125),
+             8px 8px 0 rgb(76, 4, 79),
+             9px 9px 0 rgb(76, 4, 79),  
+             10px 10px 0 rgb(76, 4, 79),
+             11px 11px 15px rgba(0, 0, 0, 0.5) ;
+}

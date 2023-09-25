@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    font-size:1.2rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.image{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.image::after{
+    position: absolute;
+    display: inline-block;
+    top=0;
+    left=0;
+    width=100%;
+    min-width: 200px;
+    padding: 10px 20px 10px 45px;
+    border: dashed 1px black;
+    background-color:#f0f0f0;
+    background-image: url(noimage.jpg);
+    background-size:10%;
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+    content:"" attr(alt) "Not found";
+
+}

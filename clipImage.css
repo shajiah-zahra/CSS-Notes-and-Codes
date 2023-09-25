@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+    justify-content: center;
+
+}
+.circle-clip{
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+
+
+}
+.circle-clip-message{
+    -webkit-clip-path: polygon(0 0, 100% 0,  100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0 0, 100% 0,  100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+}
+.circle-clip-arrow{
+    -webkit-clip-path: polygon(0 25%, 60% 25%, 60% 0, 100% 50%,60% 100%, 60% 75%, 0 75% );
+    clip-path: polygon(0 25%, 60% 25%, 60% 0, 100% 50%,60% 100%, 60% 75%, 0 75% );
+}

@@ -1,0 +1,31 @@
+.Mario-block{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.Mario{
+        width: 1px;
+        height: 1px;
+        transform: scale(20);
+        background: transparent;
+        box-shadow: 8px 4px #3552c1,
+                    7px 5px #3552c1,
+                    8px 5px #3552c1,
+                    9px 5px #3552c1,
+                    6px 6px #3552c1,
+                    7px 6px #3552c1,
+                    8px 6px #3552c1,
+                    9px 6px #3552c1,
+                    10px 6px #3552c1,
+                    6px 7px #3552c1,
+                    7px 7px #3552c1,
+                    8px 7px #3552c1,
+                    9px 7px #3552c1,
+                    10px 7px #3552c1,
+                    11px 7px #3552c1,
+                     12px 7px #3552c1, 5px 8px #ffc231, 6px 8px #ffc231, 7px 8px #ffc231, 8px 8px #ffc231, 9px 8px #ffc231, 10px 8px #ffc231, 11px 8px #ffc231, 5px 9px #ffc231, 6px 9px #ffc231, 7px 9px #ffc231, 8px 9px #ffc231, 9px 9px #ffc231, 10px 9px #ffc231, 11px 9px #ffc231, 5px 10px #ffc231, 6px 10px #ffc231, 7px 10px #000000, 8px 10px #ffc231, 9px 10px #000000, 10px 10px #ffc231, 11px 10px #ffc231, 4px 11px rgb(12, 214, 19), 5px 11px #ffc231, 6px 11px #ffc231, 7px 11px #ffc231, 8px 11px #ffc231, 9px 11px #ffc231, 10px 11px #ffc231, 11px 11px #ffc231, 12px 11px #11c53b, 3px 12px #16a32d, 5px 12px #ffc231, 6px 12px #ff1c1c, 7px 12px #ff1c1c, 8px 12px #ff1c1c, 9px 12px #ff1c1c, 10px 12px #ff1c1c, 11px 12px #ffc231, 12px 12px #17a82a, 1px 13px #4d3514, 2px 13px rgb(15, 192, 44), 5px 13px #ffc231, 6px 13px #ff1c1c, 7px 13px rgb(245, 248, 245), 8px 13px rgb(255, 255, 255), 9px 13px rgb(255, 255, 255), 10px 13px #ff1c1c, 11px 13px #ffc231, 12px 13px rgb(40, 193, 30), 1px 14px #4d3514, 2px 14px #4d3514, 5px 14px #ffc231, 6px 14px #ff1c1c, 7px 14px #ff1c1c, 8px 14px #ff1c1c, 9px 14px #ff1c1c, 10px 14px #ff1c1c, 11px 14px #ffc231, 12px 14px rgb(44, 182, 28), 5px 15px #ffc231, 6px 15px #ffc231, 7px 15px #ffc231, 8px 15px #ffc231, 9px 15px #ffc231, 10px 15px #ffc231, 11px 15px #ffc231, 12px 15px rgb(31, 226, 17), 13px 15px #4d3514, 7px 16px #573f28, 9px 16px #573f28, 11px 16px #4d3514, 12px 16px #4d3514, 7px 17px #573f28, 9px 17px #573f28, 7px 18px #573f28, 9px 18px #573f28, 6px 19px #000000, 7px 19px #000000, 9px 19px #000000, 10px 19px #000000;
+
+
+    
+}

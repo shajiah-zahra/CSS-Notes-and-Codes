@@ -1,0 +1,120 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 0 20px;
+    display: flex;
+    padding: 50px 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.container{
+    background-image: linear-gradient(to right, #79ffff 30%, #18a7a7 90%);
+    background-image: -webkit-linear-gradient(to right, #79ffff 30%, #18a7a7 90%);
+    color:navy;
+    text-shadow: 0 0 5px #a9bbbb,
+                 0 0 5px navy;
+    margin: 50px 350px;
+    padding: 50px;
+    display: inline-block;
+    position: relative;
+    
+}
+.container *{
+    box-sizing: border-box;
+}
+div form input{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    line-height: 1.5rem;
+    margin: 0.2rem;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #18a7a7;
+    transition: all 0.3s ease;
+    
+}
+div form input:hover{
+    transform: scale(1.01);
+}
+
+
+div form button{
+    display: flex;
+    background-image: linear-gradient(45deg, 
+                                       rgba(255,255,255,0.3) 25%, 
+                                        rgba(0,0,0) 25%,
+                                        rgba(0,0,0)50%,
+                                        rgba(255,255,255,0.3) 50%,
+                                        rgba(255,255,255,0.3) 75%,
+                                        rgba(0,0,0)75%,
+                                        rgba(0,0,0));
+
+    z-index: 3;
+    background-size: 40px 40px;
+    padding: 0.5rem 5rem;
+    background-color: navy;
+    color:white;
+    margin: 0.5rem 5.5rem ;
+    transition: all 0.3 ease;
+    border: 1px solid transparent;
+
+   
+}
+div form button:hover{
+    transform: scale(1.05);
+    border-bottom: 2px solid black;
+    background-size: 50px 50px;
+}
+.wrapper{
+    display:block;
+    position: relative;
+    background-color:blanchedalmond;
+    margin: 0 20px;
+    padding: 1.2rem;
+    box-shadow: 0 0 100px rgba(0,0,0, 0.2) ;
+    border-radius: 30px;
+    transform: scale(0.9) translate(0,16px);
+
+    transition: all 0.3s ease;
+}
+.wrapper:hover{
+    transform: scaleY(1.1);
+    border: 2px solid #18a7a7;
+}
+.wrapper::after{
+    transform: scale(0.96) translate(0,16px);
+    transition-delay: 0.5s;
+}
+.wrapper::before{
+    transform: scale(0.96) translate(0,36px);
+
+
+}
+.wrapper:hover::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 3px solid black;
+    border-radius: 40px;
+    transform: scale(1.05);
+    z-index: -1;
+}
+.wrapper:hover::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 3px solid black;
+    border-radius: 40px;
+    transform: scale(1.03);
+    z-index: -2;
+}
